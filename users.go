@@ -98,6 +98,7 @@ type User struct {
 	SharedRunnersMinutesLimit      int                `json:"shared_runners_minutes_limit"`
 	ExtraSharedRunnersMinutesLimit int                `json:"extra_shared_runners_minutes_limit"`
 	UsingLicenseSeat               bool               `json:"using_license_seat"`
+	Bot                            bool               `json:"bot"`
 	CustomAttributes               []*CustomAttribute `json:"custom_attributes"`
 }
 
